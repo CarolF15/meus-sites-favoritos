@@ -13,11 +13,9 @@ A página tem como objetivo reunir e organizar links rápidos para sites essenci
 
 ## 🎯 Objetivo do Programa
 
-- Desenvolver uma página web responsiva e semântica utilizando **HTML5** e **CSS3**[cite: 11, 20].
-- Aplicar a estrutura básica de marcação com tags obrigatórias (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`) e meta tags de adaptação (`charset`, `viewport`)[cite: 11, 20, 21].
-- Exibir os logotipos dos sites acompanhados de seus respectivos nomes, fontes e links com abertura em nova aba (`target="_blank"`)[cite: 1, 24, 28, 29].
-- Incluir comentários explicativos nas linhas de código para fins de documentação acadêmica[cite: 31, 32].
-- Personalizar a interface com a paleta oficial da **CódiCa** (Roxo, Laranja e Azul-Noite)[cite: 1].
+- Desenvolver uma página web responsiva e semântica utilizando **HTML5** e **CSS3**.
+- Aplicar a estrutura básica de marcação com tags obrigatórias (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`) e meta tags de adaptação (`charset`, `viewport`).
+- Exibir os logotipos dos sites acompanhados de seus respectivos nomes e links com abertura em nova aba (`target="_blank"`).
 
 ---
 
