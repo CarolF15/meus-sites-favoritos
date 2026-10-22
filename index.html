@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Título exibido na aba do navegador -->
+    <title>Meus sites favoritos</title>
+    
+    <!-- Estilização CSS com textos em Laranja e links em Roxo -->
+    <style>
+        :root {
+            --codica-roxo: #7c3aed;       /* Roxo CódiCa para os links */
+            --codica-laranja: #f97316;    /* Laranja CódiCa para os textos e títulos */
+            --codica-azul-noite: #172033; /* Azul-Noite para contraste */
+            --codica-bg-light: #f1f5f9;
+            --codica-card-bg: #ffffff;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--codica-bg-light);
+            color: var(--codica-laranja);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Título do corpo da página em Laranja[cite: 22] */
+        h1.main-title {
+            color: var(--codica-laranja);
+            text-align: left;
+            font-size: 2rem;
+            border-bottom: 4px solid var(--codica-roxo);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        /* Estrutura dos cartões de sites */
+        .site-container {
+            background-color: var(--codica-card-bg);
+            border-left: 6px solid var(--codica-roxo);
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Nome do site (h1 em Laranja)[cite: 22] */
+        .site-container h1 {
+            color: var(--codica-laranja);
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        /* Ajuste de exibição das imagens[cite: 25] */
+        .site-container img {
+            max-width: 100%;
+            height: 60px;
+            object-fit: contain;
+            display: block;
+            margin: 10px 0;
+        }
+
+        /* Legenda de fonte (Texto em Laranja) */
+        .source-text {
+            font-size: 0.85rem;
+            color: var(--codica-laranja);
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        /* Links em Roxo[cite: 28, 29] */
+        .site-link {
+            color: var(--codica-roxo);
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: 1rem;
+            display: inline-block;
+            transition: opacity 0.2s;
+        }
+
+        .site-link:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Título do corpo da página -->
+    <h1 class="main-title">Meus sites favoritos: Caroline Ferreira Santos</h1>
+
+    <!-- Bloco do YouTube -->
+<div class="site-container">
+    <h1>YouTube</h1>
+    <a href="https://www.youtube.com" target="_blank">
+        <!-- Adicionado style="height: 40px;" abaixo -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="Logotipo do YouTube" style="height: 40px;">
+    </a>
+    <p class="source-text">Fonte: (YouTube, 2026)</p>
+    <a href="https://www.youtube.com" target="_blank" class="site-link">Acessar o YouTube</a>
+</div>
+
+    <!-- Comentário: Bloco do GitHub[cite: 31] -->
+    <div class="site-container">
+        <h1>GitHub</h1>
+        <a href="https://github.com" target="_blank">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logotipo do GitHub">
+        </a>
+        <p class="source-text">Fonte: (GitHub, 2026)</p>
+        <a href="https://github.com" target="_blank" class="site-link">Acessar o GitHub</a>
+    </div>
+
+    <!-- Comentário: Bloco do Canva[cite: 31] -->
+    <div class="site-container">
+        <h1>Canva</h1>
+        <a href="https://www.canva.com" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Logotipo do Canva">
+        </a>
+        <p class="source-text">Fonte: (Canva, 2026)</p>
+        <a href="https://www.canva.com" target="_blank" class="site-link">Acessar o Canva</a>
+    </div>
+
+    <!-- Comentário: Bloco da DIO[cite: 31] -->
+    <div class="site-container">
+        <h1>DIO</h1>
+        <a href="https://www.dio.me" target="_blank">
+            <img src="https://hermes.dio.me/assets/diome/logo.svg" alt="Logotipo da DIO">
+        </a>
+        <p class="source-text">Fonte: (DIO, 2026)</p>
+        <a href="https://www.dio.me" target="_blank" class="site-link">Acessar a DIO</a>
+    </div>
+
+    <!-- Comentário: Bloco do LinkedIn[cite: 31] -->
+    <div class="site-container">
+        <h1>LinkedIn</h1>
+        <a href="https://www.linkedin.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logotipo do LinkedIn">
+        </a>
+        <p class="source-text">Fonte: (LinkedIn, 2026)</p>
+        <a href="https://www.linkedin.com" target="_blank" class="site-link">Acessar o LinkedIn</a>
+    </div>
+
+</body>
+</html>
